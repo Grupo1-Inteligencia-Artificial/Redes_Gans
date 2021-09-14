@@ -1,2 +1,2 @@
 # Redes_Gans
-repositorio del trabajo grupal de Inteligencia Artificial.
+Repositorio del trabajo grupal de Inteligencia Artificial.
