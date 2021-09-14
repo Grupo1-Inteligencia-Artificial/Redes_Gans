@@ -2,3 +2,4 @@
 Repositorio del trabajo grupal de Inteligencia Artificial.  
 Integrantes:  
 Vicente Jesus Vilchez Diaz
+Ronald Nicolas Saenz Chuqui
