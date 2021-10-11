@@ -10,3 +10,5 @@ Clisman jesús Adahiton Moreno Marchena
   
 Profesor: CESAR JESUS LARA AVILA  
 Curso: Inteligencia Artificial
+
+Link del dataset: https://drive.google.com/drive/folders/1gq-Gj3GRFiyghTPKhp8uDMA9HV_0ZFWQ
