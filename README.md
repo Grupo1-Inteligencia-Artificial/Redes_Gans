@@ -19,34 +19,33 @@ PASOS A SEGUIR:
 ---
 ### Instalacion
 
-Clone this repo.
+Clonar el git.
 ```
 git clone https://github.com/tobran/DF-GAN
 cd DF-GAN/code/
 ```
 
 ### Prepracion de dataset
-1. Download the preprocessed metadata for [birds](https://drive.google.com/open?id=1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ) [coco](https://drive.google.com/open?id=1rSnbIGNDGZeHlsUlLdahj0RJ9oo6lgH9) and save them to `data/`
+1. Descargue los metadatos preprocesados para [birds](https://drive.google.com/open?id=1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ) [coco](https://drive.google.com/open?id=1rSnbIGNDGZeHlsUlLdahj0RJ9oo6lgH9) and save them to `data/`
 2. Download the [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) image data. Extract them to `data/birds/`
 3. Download [coco](http://cocodataset.org/#download) dataset and extract the images to `data/coco/`
 
 
 ### encoder de los textos entrenados
-1. Download the [pre-trained text encoder](https://drive.google.com/open?id=1GNUKjVeyWYBJ8hEU-yrfYQpDOkxEyP3V) for CUB and save it to `DAMSMencoders/bird/inception/`
-2. Download the [pre-trained text encoder](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ) for coco and save it to `DAMSMencoders/coco/inception/`
+1. Descargar el [pre-trained text encoder](https://drive.google.com/open?id=1GNUKjVeyWYBJ8hEU-yrfYQpDOkxEyP3V) for CUB and save it to `DAMSMencoders/bird/inception/`
+2. Descargar el [pre-trained text encoder](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ) for coco and save it to `DAMSMencoders/coco/inception/`
 
 ---
 ### Entrenamiento
 
 **Entrenanado el modelo DF-GAN:**
-  - For bird dataset: `python main.py --cfg cfg/bird.yml`
-  - For coco dataset: `python main.py --cfg cfg/coco.yml`
+  - para el dataset: `python main.py --cfg cfg/bird.yml`
 
-- `*.yml` files are example configuration files for training/evaluation our models.
+- `*.yml` Los archivos son archivos de configuración de ejemplo para entrenar y evaluar nuestros modelos..
 
 ### Evaluacion
 
-**Evaluate DF-GAN models:**
+**Evaluando el modelo DF-GAN:**
 
 - To evaluate our DF-GAN on CUB, change B_VALIDATION to True in the bird.yml. and then run `python3 main.py --cfg cfg/bird.yml`
 - We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
