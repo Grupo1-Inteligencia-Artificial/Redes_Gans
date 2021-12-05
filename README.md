@@ -32,7 +32,6 @@ cd DF-GAN/code/
 
 ### encoder de los textos entrenados
 1. Descargar el [pre-trained text encoder](https://drive.google.com/open?id=1GNUKjVeyWYBJ8hEU-yrfYQpDOkxEyP3V) for CUB and save it to `DAMSMencoders/bird/inception/`
-2. Descargar el [pre-trained text encoder](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ) for coco and save it to `DAMSMencoders/coco/inception/`
 
 ---
 ### Entrenamiento
